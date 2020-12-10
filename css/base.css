@@ -276,7 +276,6 @@ ol,
 li,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -293,12 +292,19 @@ td {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
 	text-rendering: optimizeLegibility;
 	line-height: 1.2;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-rendering: optimizeLegibility;
+	line-height: 1.2;
+	text-shadow: 1px 1px #ffffff;
 }
 
 hr {
