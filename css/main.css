@@ -986,6 +986,25 @@ ul#nav li.current a:after {
 	padding-bottom: 102px;
 }
 
+#portfolio-hero {
+	background: #0F1215 url(../images/pexels.jpeg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 630px;
+	width: 100%;
+	text-align: left;
+	position: relative;
+	border-bottom: 1px solid #15191d;
+}
+
+.hero-content {
+	position: relative;
+	padding-top: 66px;
+	padding-bottom: 102px;
+}
+
+
 /* hero slider */
 #hero-slider {
 	margin: 120px 0 54px;
